@@ -13,7 +13,9 @@ Giá trị khởi tạo:
  - coef_y: hệ số hiệu chỉnh m/pixel theo trục y
  
 2. File test.py:
-- Thay đổi đường dẫn video và đường dẫn file pkl để chạy test
+- Chạy câu lệnh sau để test 
+
+python test.py --videopath "data_speed/video_test/car_hightway.mp4" --resultpath "car_hightway.mp4"  --pklpath "data_speed/pkl_test/car_hightway.pkl" --widthreal "150" --heightreal "70"
 
 3. File rectification.py
 - chuyển từ không gian ảnh sang không gian thực
